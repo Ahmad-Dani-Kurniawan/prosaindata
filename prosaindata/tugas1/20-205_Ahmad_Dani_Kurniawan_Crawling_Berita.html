@@ -155,7 +155,7 @@ const thebe_selector_output = ".output, .cell_output"
         </ul>
         <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../markdown.html">Markdown Files</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../notebooks.html">Content with notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks.html"><strong>Tugas 1</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
 </ul>
 
@@ -371,29 +371,12 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
-Collecting request2
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>  Downloading request2-0.2.tar.gz (3.2 kB)
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>  Preparing metadata (setup.py) ... ?25l?25hdone
+Requirement already satisfied: request2 in /usr/local/lib/python3.9/dist-packages (0.2)
 Requirement already satisfied: requests in /usr/local/lib/python3.9/dist-packages (from request2) (2.25.1)
 Requirement already satisfied: urllib3&lt;1.27,&gt;=1.21.1 in /usr/local/lib/python3.9/dist-packages (from requests-&gt;request2) (1.26.14)
-Requirement already satisfied: idna&lt;3,&gt;=2.5 in /usr/local/lib/python3.9/dist-packages (from requests-&gt;request2) (2.10)
 Requirement already satisfied: chardet&lt;5,&gt;=3.0.2 in /usr/local/lib/python3.9/dist-packages (from requests-&gt;request2) (4.0.0)
+Requirement already satisfied: idna&lt;3,&gt;=2.5 in /usr/local/lib/python3.9/dist-packages (from requests-&gt;request2) (2.10)
 Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.9/dist-packages (from requests-&gt;request2) (2022.12.7)
-Building wheels for collected packages: request2
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>  Building wheel for request2 (setup.py) ... ?25l?25hdone
-  Created wheel for request2: filename=request2-0.2-py3-none-any.whl size=1983 sha256=6067b72fb9f6dd4f3d80ec1b0e830f44439c2031280fc6079e5b18058bed9d3d
-  Stored in directory: /root/.cache/pip/wheels/07/d8/04/405cdeb8195afca1a2960fa157fdd5854c5cc3b166e642fa09
-Successfully built request2
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Installing collected packages: request2
-Successfully installed request2-0.2
 </pre></div>
 </div>
 </div>
@@ -420,8 +403,8 @@ Requirement already satisfied: beautifulsoup4 in /usr/local/lib/python3.9/dist-p
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
 Requirement already satisfied: pandas in /usr/local/lib/python3.9/dist-packages (1.3.5)
-Requirement already satisfied: numpy&gt;=1.17.3 in /usr/local/lib/python3.9/dist-packages (from pandas) (1.22.4)
 Requirement already satisfied: pytz&gt;=2017.3 in /usr/local/lib/python3.9/dist-packages (from pandas) (2022.7.1)
+Requirement already satisfied: numpy&gt;=1.17.3 in /usr/local/lib/python3.9/dist-packages (from pandas) (1.22.4)
 Requirement already satisfied: python-dateutil&gt;=2.7.3 in /usr/local/lib/python3.9/dist-packages (from pandas) (2.8.2)
 Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.9/dist-packages (from python-dateutil&gt;=2.7.3-&gt;pandas) (1.15.0)
 </pre></div>
@@ -437,21 +420,19 @@ Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.9/dist-pack
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
 Requirement already satisfied: seaborn in /usr/local/lib/python3.9/dist-packages (0.11.2)
-Requirement already satisfied: scipy&gt;=1.0 in /usr/local/lib/python3.9/dist-packages (from seaborn) (1.10.1)
-Requirement already satisfied: pandas&gt;=0.23 in /usr/local/lib/python3.9/dist-packages (from seaborn) (1.3.5)
 Requirement already satisfied: matplotlib&gt;=2.2 in /usr/local/lib/python3.9/dist-packages (from seaborn) (3.5.3)
+Requirement already satisfied: pandas&gt;=0.23 in /usr/local/lib/python3.9/dist-packages (from seaborn) (1.3.5)
 Requirement already satisfied: numpy&gt;=1.15 in /usr/local/lib/python3.9/dist-packages (from seaborn) (1.22.4)
-Requirement already satisfied: cycler&gt;=0.10 in /usr/local/lib/python3.9/dist-packages (from matplotlib&gt;=2.2-&gt;seaborn) (0.11.0)
+Requirement already satisfied: scipy&gt;=1.0 in /usr/local/lib/python3.9/dist-packages (from seaborn) (1.10.1)
 Requirement already satisfied: pillow&gt;=6.2.0 in /usr/local/lib/python3.9/dist-packages (from matplotlib&gt;=2.2-&gt;seaborn) (8.4.0)
-Requirement already satisfied: pyparsing&gt;=2.2.1 in /usr/local/lib/python3.9/dist-packages (from matplotlib&gt;=2.2-&gt;seaborn) (3.0.9)
-Requirement already satisfied: packaging&gt;=20.0 in /usr/local/lib/python3.9/dist-packages (from matplotlib&gt;=2.2-&gt;seaborn) (23.0)
 Requirement already satisfied: python-dateutil&gt;=2.7 in /usr/local/lib/python3.9/dist-packages (from matplotlib&gt;=2.2-&gt;seaborn) (2.8.2)
-Requirement already satisfied: fonttools&gt;=4.22.0 in /usr/local/lib/python3.9/dist-packages (from matplotlib&gt;=2.2-&gt;seaborn) (4.39.0)
 Requirement already satisfied: kiwisolver&gt;=1.0.1 in /usr/local/lib/python3.9/dist-packages (from matplotlib&gt;=2.2-&gt;seaborn) (1.4.4)
+Requirement already satisfied: packaging&gt;=20.0 in /usr/local/lib/python3.9/dist-packages (from matplotlib&gt;=2.2-&gt;seaborn) (23.0)
+Requirement already satisfied: pyparsing&gt;=2.2.1 in /usr/local/lib/python3.9/dist-packages (from matplotlib&gt;=2.2-&gt;seaborn) (3.0.9)
+Requirement already satisfied: fonttools&gt;=4.22.0 in /usr/local/lib/python3.9/dist-packages (from matplotlib&gt;=2.2-&gt;seaborn) (4.39.0)
+Requirement already satisfied: cycler&gt;=0.10 in /usr/local/lib/python3.9/dist-packages (from matplotlib&gt;=2.2-&gt;seaborn) (0.11.0)
 Requirement already satisfied: pytz&gt;=2017.3 in /usr/local/lib/python3.9/dist-packages (from pandas&gt;=0.23-&gt;seaborn) (2022.7.1)
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.9/dist-packages (from python-dateutil&gt;=2.7-&gt;matplotlib&gt;=2.2-&gt;seaborn) (1.15.0)
+Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.9/dist-packages (from python-dateutil&gt;=2.7-&gt;matplotlib&gt;=2.2-&gt;seaborn) (1.15.0)
 </pre></div>
 </div>
 </div>
